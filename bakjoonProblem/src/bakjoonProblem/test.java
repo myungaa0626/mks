@@ -1,29 +1,26 @@
 package bakjoonProblem;
+
+import java.util.Scanner;
+
 public class test {
-	
-	
-	int quantity;
-	int itemPrice;
-	
-	double calculateTotal() {
-		  double basePrice = quantity * itemPrice;
-		  if (basePrice > 1000) {
-		    return basePrice * 0.95;
-		  }
-		  else {
-		    return basePrice * 0.98;
-		  }
-		}
 
 	public static void main(String[] args) {
-
-	
-	
 		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		
+		int[] arr = new int[n];
+		
+		
+		
+		System.out.println(arr.length);
 		
 		
 		
 		
 		
 	}
+
 }
